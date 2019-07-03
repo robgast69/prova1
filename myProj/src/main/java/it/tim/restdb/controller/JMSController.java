@@ -19,7 +19,7 @@ import it.tim.restdb.repository.MessaggiRepository;
 import it.tim.restdb.services.Sender;
 import it.tim.restdb.services.Publisher;
 
-@RestController
+@RestController 
 public class JMSController {
 	Logger logger = LoggerFactory.getLogger(JMSController.class);
 
